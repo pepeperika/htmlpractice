@@ -3,9 +3,11 @@
 body{
     font-family: 'Meiriyo', sans-serif;
     font-size: 15px;
+    /* !importantで最優先になる */
     border-top: 10px solid #79a1b1 !important;
 }
 a{
+    /* リンクの下線や色を消している */
     text-decoration: none;
     color: #333;
 }
@@ -22,9 +24,11 @@ a{
     margin: 0 auto;
 }
 .header ul{
+    /* 横並びになる */
     display: flex;
 }
 .header ul li{
+    /* 黒丸を消している */
     list-style: none;
     width: 200px;
     text-align: center;
@@ -44,6 +48,7 @@ a{
 }
 .container_service .service_block{
     display: flex;
+    /* 画面で均等に分割されるようにする */
     justify-content: space-between;
 }
 .container_service .service{
